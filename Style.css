@@ -1,0 +1,27 @@
+body{
+    background-image: url(BIRD\ IS\ THE\ WORD.jpeg );
+    background-size: 69%;
+}
+#MovingAnimation{
+    font-style: italic;
+    color: #00a6ff;
+    animation: movingbirdbirdbird;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+@keyframes movingbirdbirdbird{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+#Iframeforbirdistheword{
+    animation: Movingbuttonforbirdistheword;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes Movingbuttonforbirdistheword{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
